@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.home{
+    margin-top: 25px;
+    &__form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin: 0 auto;
+        width: 400px;
+
+        &__block{
+            width: 100%;
+            
+            &__inputs{
+                display: flex;
+                column-gap: 8px;
+                
+                &__input{
+                    width: 50%;
+                    padding: 4px;
+                    border: 1px solid black;
+                    outline: none;
+                }
+            }
+
+            &__contactinput{
+                width: -webkit-fill-available;
+                padding: 4px;
+                border: 1px solid black;
+                outline: none;
+            }
+        }
+
+        &__saveBtn{
+            background: #008000bf;
+            color: black;
+            cursor: pointer;
+            padding: 7px 0;
+            border: 1px solid black;
+            outline: none;
+        }
+    }
+
+    &__table{
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+        &__delete{
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+    }
+
+}
+
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
